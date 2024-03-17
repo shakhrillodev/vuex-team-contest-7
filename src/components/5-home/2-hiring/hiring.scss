@@ -1,0 +1,40 @@
+.home-hiring {
+  h2,
+  h3 {
+    color: #131414;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 1.3;
+    text-align: center;
+  }
+
+  h3 {
+    color: #068932;
+    background: -webkit-linear-gradient(right, #32c766, #068932);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    color: #576871;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.59;
+    text-align: center;
+    max-width: 680px;
+    margin: 40px auto;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+
+    li a {
+      color: #39424e;
+      font-weight: 600;
+      text-align: center;
+      text-decoration: none;
+    }
+  }
+}
