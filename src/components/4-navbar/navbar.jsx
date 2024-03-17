@@ -5,10 +5,12 @@ import NavOptions from './nav-options/nav-options'
 
 const Navbar = () => {
   return (
-    <div className="navbar container">
-        <img src={Logo} className='logo' alt="logo" />
-        <NavLinks />
-        <NavOptions />
+    <div className="parent">
+      <div className="container navbar">
+          <img src={Logo} className='logo' alt="logo" />
+          <NavLinks />
+          <NavOptions />
+      </div>
     </div>
   )
 }

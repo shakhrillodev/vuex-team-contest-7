@@ -30,6 +30,36 @@
         justify-content: center;
         margin: 20px 0px;
     }
+    &::before{
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        display: block;
+        background: #6E6BFE;
+        border-radius: 50%;
+        box-shadow: 0 0 1000px 350px #6E6BFE;
+        z-index: -1;
+        right: 0;
+        top: 100%;
+        transform: translate(-80%, -80%);
+        opacity: .2;
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        display: block;
+        background: #1BA94C;
+        border-radius: 50%;
+        box-shadow: 0 0 1000px 350px #1BA94C;
+        z-index: -1;
+        left: 0;
+        top: 100%;
+        transform: translate(80%, -80%);
+        opacity: .2;
+    }
 }
 
 
