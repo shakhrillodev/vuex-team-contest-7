@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    position: sticky;
+}
+
+.navbar .logo{
+    height: 20px;
+    width: auto;
+}
+
+.navbar *{
+    cursor: pointer;
+}

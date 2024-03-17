@@ -1,0 +1,29 @@
+.header-top{
+    display: flex;
+    justify-content: flex-end;
+    background: #050C1B;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    height: 50px;
+}
+
+.header-top::after{
+    content: '';
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: 0px;
+    left: 10%;
+    background: linear-gradient(90deg, #f4c4f3 0%, white 100%);;
+    z-index: 0;
+    filter: blur(250px);
+}
+
+.header-top ul{
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
