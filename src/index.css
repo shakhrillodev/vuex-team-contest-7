@@ -1,23 +1,23 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
-  font-family: 'Open sans', sans-serif;
+  font-family: "Open sans", sans-serif;
 }
 
-body{
+body {
   width: 100%;
   height: 100%;
 }
 
-.box{
+.box {
   padding: 60px 0px;
   margin: 0 auto;
   max-width: 1120px;
 }
 
-.container{
+.container {
   margin: 0 auto;
   max-width: 1120px;
 }

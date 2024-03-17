@@ -28,13 +28,17 @@
   ul {
     display: flex;
     justify-content: center;
-    gap: 110px;
+    gap: 150px;
 
     li a {
       color: #39424e;
       font-weight: 600;
       text-align: center;
       text-decoration: none;
+    }
+
+    li a:hover {
+      text-decoration: underline;
     }
   }
 }
