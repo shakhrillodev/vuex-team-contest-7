@@ -1,4 +1,4 @@
-import './header-ribbon.css'
+import './header-ribbon.scss'
 const HeaderRibbon = () => {
   return (
     <div className='header-ribbon'>
