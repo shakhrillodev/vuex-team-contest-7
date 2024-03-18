@@ -52,3 +52,12 @@ button{
   font-weight: bold;
   cursor: pointer;
 }
+
+a{
+  text-decoration: none;
+  transition: all .5s ease;
+  color: black;
+  &:hover{
+    color: #1ba94c !important; 
+  }
+}

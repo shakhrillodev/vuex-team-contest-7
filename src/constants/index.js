@@ -1,5 +1,5 @@
 // images
-import { adobe, atlassian, bloomberg, booking, doordash, feature1, feature2, feature3, goldmansanchs, linkedin, peloton, stripe, tool1, tool2, tool3, tool4, tool5, tool6, tool7, ubs, vanguard, vmware, wish } from "../assets"
+import { adobe, atlassian, bloomberg, booking, doordash, facebookIcon, feature1, feature2, feature3, goldmansanchs, hackerrankIcon, instagramIcon, linkedin, linkedinIcon, peloton, stripe, tool1, tool2, tool3, tool4, tool5, tool6, tool7, twitterIcon, ubs, vanguard, vmware, wish } from "../assets"
 
 // client images
 export const clients = [adobe, atlassian, bloomberg, goldmansanchs, linkedin, peloton, stripe, vmware]
@@ -56,3 +56,64 @@ export const clientComments = [
         comment: "HackerRank has been a huge help in making it easy to assess the skills of all the candidates we interview. Without it, the process of scaling our engineering team would have been very cumbersome."
     }
 ]
+
+// Footer Menu
+
+export const footerLinks = [
+    {
+        head: 'PRODUCTS',
+        body: [
+            'Screen',
+            'Interview',
+            'Certified Assessments',
+            'Plagiarism Detection',
+            'Real World Questions'
+        ]
+    },
+    {
+        head: 'SOLUTIONS',
+        body: [
+            'Set Up a Skills Strategy',
+            'Showcase Your Talent Brand',
+            'Optimize Your Hiring Process',
+            'Mobilize Your Internal Talent',
+            'Embrace AI'
+        ]
+    },
+    {
+        head: 'RESOURCES',
+        body: [
+            'Blog',
+            'Customer Stories',
+            'Roles Directory',
+            'Partners',
+            'Integrations',
+            'What’s New'
+        ]
+    },
+    {
+        head: 'ABOUT US',
+        body: [
+            'Careers',
+            'Our Team',
+            'Newsroom',
+            'Status',
+            'Trust',
+        ]
+    },
+    {
+        head: 'GET STARTED',
+        body: [
+            'Pricing',
+            'Free Trial',
+            'Contact Us',
+            'Request Demo',
+            'Product Support',
+            'For Developers'
+        ]
+    }
+]
+
+// Footer icons
+
+export const footerIcons = [ hackerrankIcon, facebookIcon, linkedinIcon, twitterIcon, instagramIcon ]

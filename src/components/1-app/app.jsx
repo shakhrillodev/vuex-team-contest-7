@@ -1,4 +1,4 @@
-import { Navbar, HeaderRibbon, HeaderTop, Home } from ".."
+import { Navbar, HeaderRibbon, HeaderTop, Home, Footer } from ".."
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <HeaderTop />
       <Navbar />
       <Home />
+      <Footer />
     </div>
   )
 }

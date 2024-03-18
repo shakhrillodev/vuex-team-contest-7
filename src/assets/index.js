@@ -34,3 +34,10 @@ export { default as booking } from './booking_black.png'
 export { default as doordash } from './doordash_black.png'
 export { default as vanguard } from './vanguard_black.png'
 export { default as wish } from './wish_black.png'
+
+// footer icons
+export { default as instagramIcon } from './instagram.png'
+export { default as twitterIcon } from './twitter.png'
+export { default as linkedinIcon } from './linkedin.png'
+export { default as facebookIcon } from './facebook.png'
+export { default as hackerrankIcon } from './hackerrank_icon.png'

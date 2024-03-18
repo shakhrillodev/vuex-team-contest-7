@@ -4,7 +4,7 @@ const NavLinks = () => {
   return (
     <ul className="nav-links">{navlinks.map((link, idx) => {
         return (<li key={idx}>
-            {link}
+            <a href="#">{link}</a>
         </li>)
     })}</ul>
   )
