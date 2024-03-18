@@ -1,18 +1,17 @@
-.home-links{
-    display: flex;
-    .link-item{
+.home-links-container{
+    background: linear-gradient(to right, white 50%, #F3F7F7 50%);
+    .home-links{
         display: flex;
-        flex-direction: column;
-        gap: 20px;
-        padding: 100px 0px;
-        &:first-child{
-            padding-right: 50px;
-        }
-        &:last-child{
-            padding-left: 50px;
-        }
-        button{
-            align-self: flex-start;
+        justify-content: space-between;
+        .link-item{
+            flex: 0 0 45%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 60px 0px;
+            button{
+                align-self: flex-start;
+            }
         }
     }
 }
