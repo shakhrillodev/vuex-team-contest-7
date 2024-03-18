@@ -1,0 +1,15 @@
+.about{
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .text-content{
+            max-width: 50%;
+            width: 100%;
+        }
+    }
+}

@@ -1,6 +1,8 @@
 .parent{
     position: sticky;
     top: 0px;
+    background: white;
+    z-index: 99;
     /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); */
     .navbar{
         display: flex;

@@ -1,0 +1,32 @@
+.swiper{
+    height: 300px;   
+    max-width: 400px;   
+    width: 350px;
+    margin: 0;
+    background: #F7FCFF;
+    text-align: center;
+    flex-grow: 1;
+    .swiper-slide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            height: 60px;
+            object-fit: contain;
+        }
+        p{
+            max-width: 300px;
+            width: 300px;
+        }
+    }
+    .swiper-pagination-bullet {
+        margin: 0 8px;
+        transition: all .5s ease;
+    }
+      
+    .swiper-pagination-bullet-active {
+        background: #1BA94C;
+        transform: scale(1.5);
+    }
+      
+}

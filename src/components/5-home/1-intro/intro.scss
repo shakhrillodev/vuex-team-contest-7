@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
     gap: 20px;
+    position: relative;
     .home-title{
         font-size: 64px;
         font-weight: 900;
@@ -16,13 +16,6 @@
         font-weight: 300;
         text-align: center;
         
-    }
-    .client-logos{
-        display: flex; 
-        img{
-            height: 60px;
-            width: auto;
-        }
     }
     .btn-group{
         display: flex;

@@ -1,4 +1,4 @@
-import "./navbar.css";
+import "./navbar.scss";
 import { Logo } from "../../assets";
 import NavLinks from "./nav-links/nav-links";
 import NavOptions from "./nav-options/nav-options";

@@ -9,7 +9,7 @@ const NavOptions = () => {
             </p>
         </li>
         <li>
-            <button style={{background: "#F7F7F7" }}>Request demo</button>
+            <button style={{background: "#F7F7F7", color: "black" }}>Request demo</button>
         </li>
         <li>
             <button style={{background: "#068932", color: 'white'}}>Sign up</button>

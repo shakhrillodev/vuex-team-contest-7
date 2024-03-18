@@ -1,0 +1,18 @@
+.home-links{
+    display: flex;
+    .link-item{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 100px 0px;
+        &:first-child{
+            padding-right: 50px;
+        }
+        &:last-child{
+            padding-left: 50px;
+        }
+        button{
+            align-self: flex-start;
+        }
+    }
+}
