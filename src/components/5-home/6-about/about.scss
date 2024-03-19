@@ -6,10 +6,22 @@
     .content{
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        gap: 30px;
+        align-items: center;
         .text-content{
-            max-width: 50%;
-            width: 100%;
+            flex: 1 1 400px;
         }
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .about .text-content{
+        min-width: 400px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .about .text-content{
+        min-width: auto;
     }
 }

@@ -4,14 +4,32 @@
         display: flex;
         justify-content: space-between;
         .link-item{
-            flex: 0 0 45%;
+            flex: 1 1 400px;
             display: flex;
             flex-direction: column;
             gap: 20px;
-            padding: 60px 0px;
             button{
                 align-self: flex-start;
             }
+        }
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .home-links-container{
+        .link-item{
+            min-width: 450px;
+            padding: 60px 50px;
+        }
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .home-links-container{
+        background: none;
+        .link-item{
+            padding: 10px 0px;
+            min-width: auto;
         }
     }
 }

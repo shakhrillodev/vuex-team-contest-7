@@ -1,0 +1,17 @@
+.random-t-content{
+    .small-t{
+        display: flex;
+        justify-content: center;
+        &::after{
+            top: -50px;
+        }
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .random-t-content{
+        .cherry::after{
+            display: none;
+        }
+    }
+}

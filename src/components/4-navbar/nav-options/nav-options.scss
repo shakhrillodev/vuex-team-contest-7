@@ -1,0 +1,27 @@
+.nav-options{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    .developerBtn{
+        border-radius: 0px;
+        background: white; 
+        color: black;
+        font-weight: 600;
+        border-right: 1px solid black;
+        padding-right: 10px; 
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav-options{
+        flex-direction: column;
+        width: 100%;
+        li{
+            width: 90%;
+            text-align: center;
+            button{
+                width: 100%;
+            }
+        }
+    }
+}

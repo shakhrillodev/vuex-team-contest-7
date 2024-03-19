@@ -1,7 +1,9 @@
 footer{
+    display: flex;
+    justify-content: center;
     .footer-menu{
         display: flex;
-        justify-content: space-between;
+        gap: 20px;
         .sub-menu-title{
             letter-spacing: 0.4em;
             color: #637681;
@@ -24,7 +26,7 @@ footer{
         display: block;
         margin-top: 20px;
         margin-left: auto;
-        width: 400px;
+        max-width: 400px;
         padding: 20px 0px;
         display: flex;
         flex-direction: column;

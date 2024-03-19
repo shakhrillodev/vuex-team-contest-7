@@ -1,11 +1,15 @@
 .swiper{
+    flex: 1 1 400px;
     height: 300px;   
-    max-width: 400px;   
-    width: 350px;
+    min-width: 400px; 
     margin: 0;
     background: #F7FCFF;
     text-align: center;
     flex-grow: 1;
+    flex-wrap: nowrap;
+    & *{
+        flex-wrap: nowrap;
+    }
     .swiper-slide{
         display: flex;
         flex-direction: column;
@@ -28,5 +32,10 @@
         background: #1BA94C;
         transform: scale(1.5);
     }
-      
+}
+
+@media all and (max-width: 1000px) {
+    .swiper{
+        min-width: auto; 
+    }
 }

@@ -4,9 +4,7 @@ import './comparison.scss'
 const Comparison = () => {
   return (
     <section>
-      <div className="compareBox container" style={{backgroundImage: `url(${resume})`}}>
-
-      </div>
+        <img className="compareBox" src={resume} alt="resume" />
     </section>
   )
 }

@@ -5,7 +5,7 @@ const Community = () => {
     <section style={{background: "white"}}>
         <div className="box community">
             <div className="content">
-                <p>::Coding practice::</p>
+                <p className='small-t cherry'>::Coding practice::</p>
                 <h3 style={{fontSize: "24px"}}>
                     Explore and expand your skills.
                 </h3>

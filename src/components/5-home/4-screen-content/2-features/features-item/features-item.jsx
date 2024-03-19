@@ -5,7 +5,7 @@ const FeaturesItem = ({item}) => {
     return (
         <div className="features box">
             <div className="content">
-                <h4 className="title">{title}</h4>
+                <h4 className="title cherry">{title}</h4>
                 <p className='description'>{text}</p>
                 <p><a href="#">{linkText}</a></p>
             </div>

@@ -1,12 +1,12 @@
-import './nav-options.css'
+import './nav-options.scss'
 
 const NavOptions = () => {
   return (
     <ul className='nav-options'>
         <li>
-            <p style={{borderRight: "1px solid black", paddingRight: "10px"}}>
+            <button className='developerBtn'>
             For developers
-            </p>
+            </button>
         </li>
         <li>
             <button style={{background: "#F7F7F7", color: "black" }}>Request demo</button>

@@ -8,12 +8,23 @@
     gap: 20px;
     z-index: 5;
     position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        width: 1px;
+        background: rgba($color: white, $alpha: 0.5);
+        height: 100%;
+        top: 0;
+        left: 70px;
+    }
     .content{
         padding: 0px 20px;
         display: flex;
         flex-direction: column;
         gap: 30px;
         width: 45%;
+        flex: 1 1 400px;
+        max-width: 50%;
         h3{
             margin: 0px 0px;
         }
@@ -23,12 +34,47 @@
             flex-direction: column;
             justify-content: space-around;
             button{
+                margin-top: 20px;
                 align-self: flex-start;
+            }
+        }
+        .cherry{
+            position: relative;
+            &::after, &::before{
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            &::after{
+                left: -31px;
+                background: #111621;
+                z-index: 1;
+                border: 1px solid rgba($color: #fff, $alpha: 0.4);
+            }
+            &::before{
+                content: '';
+                position: absolute;
+                left: -31px;
+                height: 1px;
+                width: 30px;
+                background: rgba($color: #fff, $alpha: 0.4);
             }
         }
     }
     img{
-        width: 45%;
-        flex-shrink: 1;
+        flex: 1 1 auto;
+        max-width: 50%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .community{
+        padding-left: 20px;
+        padding-right: 20px;
+        &::after{
+            display: none;
+        }
+        .content, img{
+            max-width: 100%;
+        }
     }
 }

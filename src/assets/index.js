@@ -41,3 +41,5 @@ export { default as twitterIcon } from './twitter.png'
 export { default as linkedinIcon } from './linkedin.png'
 export { default as facebookIcon } from './facebook.png'
 export { default as hackerrankIcon } from './hackerrank_icon.png'
+
+export { default as screenArt } from './art.svg'

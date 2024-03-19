@@ -6,7 +6,7 @@ import ToolsContainer from './tools-container/tools-container'
 const Interview = () => {
   return (
     <section>
-        <div className='box'>
+        <div className='box interviews'>
             <TextContent />
             <ToolsContainer />
             <img className='interview-pic' src={interview2} alt="interview" />

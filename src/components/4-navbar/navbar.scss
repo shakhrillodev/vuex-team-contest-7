@@ -8,7 +8,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 0px;
         .logo{
             height: 20px;
             width: auto;
@@ -19,3 +18,31 @@
     }
 }
 
+@media all and (min-width: 1000px){
+    .navbar{
+        padding: 20px 0px;
+        nav{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .navbar{
+        padding: 20px;
+        nav{
+            display: none;
+            padding-left: 20px;
+            align-items: flex-start;
+            position: absolute;
+            flex-direction: column;
+            gap: 20px;
+            top: 70px;
+            left: 50%;
+            transform: translate(-50%);
+            background: white;
+            width: 100%;
+        }
+    }
+}

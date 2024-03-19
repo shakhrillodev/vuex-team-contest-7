@@ -4,3 +4,9 @@
     list-style: none;
     gap: 20px;
 }
+
+@media (max-width: 1000px) {
+    .nav-links{
+        flex-direction: column;
+    }
+}

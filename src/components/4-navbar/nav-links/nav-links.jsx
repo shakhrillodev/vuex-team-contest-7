@@ -1,4 +1,4 @@
-import './nav-links.css'
+import './nav-links.scss'
 const NavLinks = () => {
   const navlinks = ["Products", "Solutions", "Resources", "Pricing"]
   return (
